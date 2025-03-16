@@ -9,3 +9,159 @@
 <h2>
     contact : 8098142301
 </h2>
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!------Header---->
+   <div id="header">
+    <img src="image.png">
+    <div class="container">
+        <nav>
+        <h1>MK</h1>
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+        <div class="header-text">
+            <p>FrontEnd Developer</p>
+            <h1>Hi, I'm <span>Muthukumar</span></h1>
+        </div>
+
+    </div>
+   </div>
+   <!-------About----->
+   <div id="about">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="IMG_20241007_174610_0132-removebg-preview.png">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>I am Muthukumar, a B.Tech student with a strong passion for full stack web development. I enjoy building interactive and user-friendly web applications, utilizing both front-end and back-end technologies. I am always eager to learn and keep up with new trends and advancements in web development. My goal is to develop efficient and scalable solutions that make a real impact. I thrive in collaborative environments and value teamwork as well as independent problem-solving. Driven and dedicated, I look forward to applying my skills and growing as a professional developer.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>1.FrontEnd Development</span><br>(HTML,CSS,JS)</li>
+                    <li><span>2.ReactJs(Learning)</span></li>
+                    <li><span>3.Python Programming</span></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience ">
+                <ul>
+                    <li>1.No Experience.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>1.HNUC Hr.sec.school,Tenkasi</span><br>(10th,12th)</li>
+                    <li><span>2.Easa college of Engineering and Technology,Coimbatore</span></li>
+                    <li><span>Pursuing Final year B.Tech(IT)</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-----Services-->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Developer</h2>
+                <p>I can develop a Gym equipment website using Frontend development.</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <h2>Full stack web development</h2>
+                <p>I can develop a disease explorer website using Full stack web development.</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <h2>Python</h2>
+                <p>I can learn Python it was useful..</p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!----Portfolio----->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="gym.jpg">
+                <div class="layer">
+                    <h3>Gym Equipment website</h3>
+                    <p>I can develop a gym equipment website using frontend development.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="disease.webp">
+                <div class="layer">
+                    <h3>Diseases explorer website</h3>
+                    <p>I can develop a diseases explorer website using full stack web development.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img_6.png">
+                <div class="layer">
+                    <h3>Ecommerce website</h3>
+                    <p>I can develop a ecommerce website using frontend development.</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        </div>
+        <a href="" class="btn">See more</a>
+    </div>
+   </div>
+   <!----Contact----->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>mkumarit07@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8525932649</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Muthukumar.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter your name" required>
+                     <input type="email" name="Email" placeholder="Enter your Email" required>
+                    <textarea name="Message" rows="6" placeholder=" Enter your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright@kumar for my personal website.</p>
+    </div>
+   </div>
+<script src="script.js"></script>
+</html>
